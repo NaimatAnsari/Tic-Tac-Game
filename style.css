@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    font-family: "Barlow Condensed", sans-serif ;
+    font-size: 60px;
+    color: #fff;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width:  18vmin;
+    height: 18vmin;
+    border-radius: 15px;
+    border: none;
+    color: darkcyan;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1) ;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+#Reset-btn{
+    padding: 12px;
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif ;
+    font-weight: 500;
+    border-radius: 14px;
+    border: none;
+    background-color: #191913;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#Reset-btn:hover{
+    background-color: #000;
+
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hide{
+    display: none; 
+}
+
+#new-btn{
+    padding: 12px;
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif ;
+    font-weight: 500;
+    border-radius: 14px;
+    border: none;
+    background-color: #191913;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+#msg{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
